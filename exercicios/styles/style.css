@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    background-color: #191919;
+    color: #eceff1;
+    text-align: center;
+}
+
+input {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 2rem;
+    background-color: orchid;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+span {
+    text-align: left;
+    color: green;
+    font-size: 1.5rem;
+}
+
+#error {
+    color: red;
+}
+
+.is-red {
+    color: red;
+}
+
+.is-blue {
+    color: blue;
+}
+
+.is-purple {
+    color: purple;
+}
