@@ -14,6 +14,11 @@ input.addEventListener("keypress", function(event) {
     }
 });
 
+const updateResult = (value) => {
+    result.textContent = value
+}
+
+
 
 // Logica do programa 
 
@@ -32,6 +37,6 @@ const allDigitsSum = (string) => {
         total += parseInt(char)
     }
 
-    // retorne o resultado no DOM
-    result.textContent = total
+    // atualizar o resultado no DOM
+    updateResult(total)
 }
